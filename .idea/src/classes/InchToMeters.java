@@ -3,15 +3,21 @@ package classes;
 /**
  * Created by Matesteusz on 14.03.2018.
  */
+
+/*
+result: inches to meters conversion for 12 feet with empty line in every 12th inch
+ */
 public class InchToMeters {
     public static void main(String args[]) {
-        double inch;
+        double inch = 0;
         double meter;
         int counter;
-
+        int feet = 12;
+        double numberOfInchesInFeet;
+        numberOfInchesInFeet = 12 * feet;
 
         counter = 0;
-        for (inch = 0; inch <= 144; inch++) {
+        for (inch = 0; inch <= numberOfInchesInFeet; inch++) {
             meter = inch * 39.37;
             System.out.println(inch + "is equal to " + meter);
             counter++;
