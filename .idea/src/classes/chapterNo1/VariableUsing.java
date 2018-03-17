@@ -1,4 +1,4 @@
-package classes;
+package classes.chapterNo1;
 
 /**
  * Created by Matesteusz on 12.03.2018.
