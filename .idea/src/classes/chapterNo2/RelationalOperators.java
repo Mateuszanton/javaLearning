@@ -18,6 +18,6 @@ public class RelationalOperators {
         if (a & b) System.out.println("false");      //won't be executed == false
         if (!(a & b)) System.out.println("true");
         if (a | b) System.out.println("true");
-        if (a ^ b) System.out.println("true"); //XOR operator false: when false & false And true & true
+        if (a ^ b) System.out.println("true"); //XOR operator is only false when: false & false And true & true
     }
 }
