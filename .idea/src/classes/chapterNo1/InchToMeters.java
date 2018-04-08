@@ -18,8 +18,8 @@ public class InchToMeters {
 
         counter = 0;
         for (inch = 0; inch <= numberOfInchesInFeet; inch++) {
-            meter = inch * 39.37;
-            System.out.println(inch + "is equal to " + meter);
+            meter = inch * 0.0254;
+            System.out.println(inch + " inches is equal to " + meter + " meters");
             counter++;
 
             if (counter == 12) {

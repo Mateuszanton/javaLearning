@@ -8,15 +8,15 @@ public class IntAndDoubleComparison {
         int x = 10;
         double y = 10.0;
 
-        System.out.println("x to: " + x);
-        System.out.println( "y to: " + y);
-        System.out.println(); //pusta linijka
+        System.out.println("x is: " + x);
+        System.out.println( "y is: " + y);
+        System.out.println(); //empty line
 
 
         x = x / 4;
         y = y / 4;
 
-        System.out.println("x po dzieleniu: "+ x);
-        System.out.println("y po dzieleniu: " + y);
+        System.out.println("x after division: "+ x);
+        System.out.println("y after division: " + y);
     }
 }

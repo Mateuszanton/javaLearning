@@ -12,6 +12,6 @@ public class GalToLitres {
 
         litres = gallons * 3.7854;
 
-        System.out.println(gallons + " galonów odpowiada " + litres + "litrom");
+        System.out.println(gallons + " galons is equal to " + litres + "litres");
     }
 }
