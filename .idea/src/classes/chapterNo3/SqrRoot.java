@@ -12,7 +12,7 @@ public class SqrRoot {
 
             rerr = num - sroot * sroot;
             if (rerr != 0)
-                System.out.println("AND the rounding error is equal to " + rerr);
+                System.out.println("AND the rounding mistake is equal to " + rerr);
             System.out.println();
         }
     }

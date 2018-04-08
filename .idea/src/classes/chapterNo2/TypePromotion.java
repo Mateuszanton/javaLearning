@@ -1,7 +1,7 @@
 package classes.chapterNo2;
 
 public class TypePromotion {
-    public static void main(String args []){
+    public static void main(String args[]) {
         byte b;
         int i;
 
@@ -19,8 +19,8 @@ public class TypePromotion {
          */
 
         //example with the char type var:
-        char ch1 = 'a' , ch2 = 'b';
-        ch1 = (char) (ch1 + ch2); //without casting the expression would be int -> it's not possible to assign int
-                                  // to char var
+        char ch1 = 'a', ch2 = 'b';
+        ch1 = (char) (ch1 + ch2);   //without casting the expression would be int -> it's not possible to assign int
+                                    // to char var
     }
 }

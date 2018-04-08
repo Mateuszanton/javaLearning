@@ -11,6 +11,6 @@ public class CubicMileToCubicInches {
         cubicMile = 5280 * 12;
         cubicInches = cubicMile * cubicMile * cubicMile;
 
-        System.out.println("1 cubic mile contains " + cubicInches + " cubic ichnes");
+        System.out.println("1 cubic mile contains " + cubicInches + " cubic inches");
     }
 }

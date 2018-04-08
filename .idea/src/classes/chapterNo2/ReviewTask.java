@@ -2,7 +2,7 @@ package classes.chapterNo2;
 
 import com.sun.tools.internal.ws.processor.model.java.JavaException;
 
-public class ReviewTime {
+public class ReviewTask {
     public static void main(String args [])
        throws java.io.IOException{
             char ch;
