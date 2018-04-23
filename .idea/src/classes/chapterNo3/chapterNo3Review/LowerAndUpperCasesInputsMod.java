@@ -11,14 +11,11 @@ public class LowerAndUpperCasesInputsMod {
             do {
                 ignore = (char) System.in.read();
             } while (ignore != '\n');
-
-            k = (int) ch;
-            if (k >= 97 && k <= 122) {
-                ch = (char) (k -= 32);
+            if (ch >= 97 && ch <= 122) {
+                ch -= 32;
                 System.out.println(ch);
-                k = (int) ch;
-            } else if (k >= 65 && k <= 90) {
-                ch = (char) (k += 32);
+            } else if (ch >= 65 && ch <= 90) {
+                ch += 32;
                 System.out.println(ch);
             } else System.out.println(ch);
             iteration++;
