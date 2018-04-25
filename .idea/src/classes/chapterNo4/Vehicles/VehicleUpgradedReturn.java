@@ -1,4 +1,4 @@
-package classes.chapterNo4;
+package classes.chapterNo4.Vehicles;
 
 public class VehicleUpgradedReturn {
     int passengers;

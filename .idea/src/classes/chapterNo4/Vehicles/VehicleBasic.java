@@ -1,6 +1,6 @@
-package classes.chapterNo4;
+package classes.chapterNo4.Vehicles;
 
-public class Vehicle {
+public class VehicleBasic {
     int passengers; //number of passengers
     int fuelcap;    //capacity of fuel tank
     double lkm;     //fuel consumption

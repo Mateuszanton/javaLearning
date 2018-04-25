@@ -1,9 +1,9 @@
-package classes.chapterNo4;
+package classes.chapterNo4.Vehicles;
 
-public class TwoVehicles {
+public class TwoVehiclesBasic {
     public static void main(String args[]) {
-        Vehicle microvan = new Vehicle();    //instance of Vehicle class == object
-        Vehicle car = new Vehicle();
+        VehicleBasic microvan = new VehicleBasic();    //instance of Vehicle class == object
+        VehicleBasic car = new VehicleBasic();
         int range1, range2;
 
         //assigning values to minivan object components

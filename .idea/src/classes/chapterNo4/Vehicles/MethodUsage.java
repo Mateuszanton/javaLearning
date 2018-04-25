@@ -1,9 +1,9 @@
-package classes.chapterNo4;
+package classes.chapterNo4.Vehicles;
 
 public class MethodUsage {
     public static void main(String args[]) {
-        Vehicle minivan = new Vehicle();
-        Vehicle sportscar = new Vehicle();
+        VehicleBasic minivan = new VehicleBasic();
+        VehicleBasic sportscar = new VehicleBasic();
 
         minivan.passengers = 7;
         minivan.fuelcap = 65;
