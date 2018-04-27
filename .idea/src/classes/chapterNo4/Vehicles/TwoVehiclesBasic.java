@@ -2,7 +2,8 @@ package classes.chapterNo4.Vehicles;
 
 public class TwoVehiclesBasic {
     public static void main(String args[]) {
-        VehicleBasic microvan = new VehicleBasic();    //instance of Vehicle class == object
+        //instance of Vehicle class == object, new assings the reference to new variable
+        VehicleBasic microvan = new VehicleBasic();
         VehicleBasic car = new VehicleBasic();
         int range1, range2;
 
