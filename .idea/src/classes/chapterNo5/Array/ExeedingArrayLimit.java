@@ -6,6 +6,6 @@ public class ExeedingArrayLimit {
 
         for (int i = 0; i < 100; i ++)
             list[i] = i;
-        //after running the script the error message that list limit is exceeded is displayed
+        //after running the script the error message that array limit is exceeded is displayed
     }
 }
