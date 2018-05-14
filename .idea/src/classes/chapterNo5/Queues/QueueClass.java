@@ -5,7 +5,7 @@ public class QueueClass {
     int putloc, getloc; //put and get operation indexes
 
     QueueClass(int size){
-    q = new char[size + 1]; // assigns memory to queue
+    q = new char[size + 1]; // assigns memory to queue, first element is 0, will be use to identify empty queue
         putloc = getloc = 0;
     }
     void put(char ch){
